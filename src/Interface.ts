@@ -1,12 +1,12 @@
-interface Person {
+interface Persona {
     firstName: string;
     lastName: string;
 }
 
-function greeter(person: Person) {
+function greeter(person: Persona) {
     return "Hello, " + person.firstName + " " + person.lastName;
 }
 
-const user: Person = {firstName: 'gian', lastName: 'salas'};
+const user: Persona = {firstName: 'gian', lastName: 'salas'};
 
 console.log(greeter(user));
